@@ -20,12 +20,7 @@ export class RegisterComponent implements OnInit {
       password: "",
       FirstName: "",
       LastName: "",
-      email: "",
-      BOD: "",
-      FavoriteFood: "",
-      FavoriteMovie: "",
-      FavoriteArtist: "",
-      Hobbie: ""
+      email: ""
     });
   }
 

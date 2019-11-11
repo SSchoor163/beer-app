@@ -1,4 +1,4 @@
-<div *ngIf="this.resetService.reset">
+<div *ngIf="reset()">
 <div >
         <app-login></app-login>
         <a  
@@ -6,6 +6,6 @@
         
 </div>
 
-<h1>{{this.currentUser.email}}</h1>
+<h1 >{{this.currentUser.email}}</h1>
     <app-beer-list></app-beer-list>
 </div>

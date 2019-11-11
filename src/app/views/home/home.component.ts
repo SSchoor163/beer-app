@@ -21,4 +21,8 @@ export class HomeComponent implements OnInit {
     console.log(this.resetService.reset);
   }
 
+   reset(){
+    this.currentUser = this.userService.currentUserValue;
+    return this.resetService.reset;
+  }
 }
