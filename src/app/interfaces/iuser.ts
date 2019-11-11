@@ -5,4 +5,11 @@ export interface IUser {
     email:string;
     password:string;
     token?: string;
+    DOB: Date;
+    Address: string;
+    FavoriteFood: string;
+    FavoriteMovie: string;
+    FavoriteArtist: string;
+    Hobbies: string;
+
 }
