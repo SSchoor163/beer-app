@@ -1,0 +1,11 @@
+<div *ngIf="this.resetService.reset">
+<div >
+        <app-login></app-login>
+        <a  
+       routerLink="/Register">Register</a>
+        
+</div>
+
+<h1>{{this.currentUser.email}}</h1>
+    <app-beer-list></app-beer-list>
+</div>
